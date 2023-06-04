@@ -1,0 +1,855 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mar {
+    font-size: 40px;
+    background-color: black;
+    color: pink;
+    text-transform: capitalize;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 1px;
+}
+
+.logo {
+    width: 20%;
+    margin-left: 200px;
+    color: rgb(150, 15, 20);
+}
+
+.logo h1 {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.menu1 {
+   
+    display: flex;
+    border-bottom: none;
+
+}
+
+.menu1 li {
+   
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    border-bottom: none;
+    text-transform: capitalize;
+}
+
+.menu a {
+    color: black;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.reg {
+    width: 20%;
+    padding-top: 10px;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.reg li {
+    background-color: black;
+    width: 30%;
+    margin-left: 300px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.container img {
+    width: 100%;
+    height: 20%;
+    vertical-align: middle;
+    margin-top: -25px;
+}
+
+.bg1 {
+    background-image: url(img/pexels-curtis-adams-6035306.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 800px;
+    opacity: 7;
+}
+
+.bg2 {
+    background-image: url(img/pexels-curtis-adams-3990589.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 800px;
+}
+
+.bg3 {
+    background-image: url(img/pexels-binyamin-mellish-1396132\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 800px;
+}
+
+.find {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+
+.find h1 {
+    font-size: 75px;
+    color: ivory;
+}
+
+.pp {
+    font-size: 30px;
+    color: yellow;
+    padding-top: 20px;
+}
+
+.find a {
+    font-size: 20px;
+    width: 30px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+
+.flx {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    padding-top: 300px;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin-left: 550px;
+    justify-content: space-between;
+}
+
+.flx1 {
+    width: 10px;
+    margin: 20px;
+}
+
+#dis {
+    color: hotpink;
+    font-size: 100px;
+}
+#dis2 {
+    color: lawngreen;
+    font-size: 100px;
+}
+#dis3 {
+    color: hotpink;
+    font-size: 100px;
+}
+
+.flx1,
+.flx2,
+.flx3 h6 {
+    color: white;
+    font-size: 50px;
+
+}
+
+.fofo {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 180px;
+}
+
+.fofo h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: yellowgreen;
+}
+
+.fofo p {
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+}
+
+.bg {
+    background-color: darkgrey;
+}
+
+.ser {
+    padding-top: 30px;
+
+}
+
+.ser h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    /* color: beige; */
+
+}
+
+.flex1 {
+    width: 32%;
+    background-color: bisque;
+    border-radius: 35px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.flex2 {
+    width: 32%;
+    background-color: bisque;
+    border-radius: 35px;
+    animation-name: exampl;
+    animation-duration: 4s;
+}
+
+.flex3 {
+    width: 32%;
+    background-color: bisque;
+    border-radius: 35px;
+    animation-name: examp;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {
+        background-color: orange;
+    }
+
+    25% {
+        background-color: turquoise;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+@keyframes exampl {
+    0% {
+        background-color: blue;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: teal;
+    }
+
+    100% {
+        background-color: orange;
+    }
+}
+@keyframes examp {
+    0% {
+        background-color: pink;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+.flex1 h1,
+.flex2 h1,
+.flex3 h1 {
+    font-size: 60px;
+    margin: 20px;
+    width: 20%;
+    text-align: center;
+    border-radius: 50px;
+    min-height: 50px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+
+}
+
+.flex1 h5,
+.flex2 h5,
+.flex3 h5 {
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 15px;
+    word-spacing: 3px;
+    margin: 10px;
+    color: black;
+
+}
+
+.flex1 h6,
+.flex2 h6,
+.flex3 h6 {
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 15px;
+    word-spacing: 3px;
+    margin: 10px;
+    color: grey;
+
+}
+
+.see {
+    font-size: 20px;
+    width: 35px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding: 18px;
+    margin-left: 720px;
+
+}
+
+.dd {
+    margin: auto;
+
+}
+
+.dd h2 {
+    text-align: center;
+    font-size: 40px;
+    color:purple;
+    text-transform: capitalize;
+}
+
+.flexr {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 120px;
+    gap: 15px;
+    width: 80%;
+
+}
+
+.img11 {
+    min-height: 280px;
+    width: 100%;
+    background-image: url(img/pexels-alex-staudinger-1732414.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.img22 {
+    min-height: 280px;
+    width: 100%;
+    background-image: url(img/pexels-binyamin-mellish-106399.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.img33 {
+    min-height: 280px;
+    width: 100%;
+    background-image: url(img/pexels-curtis-adams-5502227\(1\).jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.img44 {
+    min-height: 280px;
+    width: 100%;
+    background-image: url(img/pexels-pixabay-210538.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.img55 {
+    min-height: 280px;
+    width: 100%;
+    background-image: url(img/pexels-max-rahubovskiy-7031406.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.img66 {
+    min-height: 280px;
+    width: 100%;
+    background-image: url(img/pexels-clay-elliot-5524205.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.imgtxt {
+    margin: 10px;
+}
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    text-transform: capitalize;
+    color: black;
+}
+
+.bed {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    color: ivory;
+    justify-content: space-between;
+}
+
+.money {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.money h2 {
+    color: black;
+}
+
+.mmore {
+    font-size: 15px;
+    /* width: 20%; */
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-color: darkgreen;
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+}
+
+.more {
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 15px;
+    background-color: hotpink;
+    color: white;
+    padding: 18px;
+    margin-left: 720px;
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+}
+
+.mySlides1 {
+    width: 60%;
+    min-height: 300px;
+    margin: auto;
+}
+
+.imgf {
+    vertical-align: middle;
+    width: 100%;
+    min-height: 420px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("img/pexels-max-rahubovskiy-7031607.jpg");
+}
+
+.imgs {
+    vertical-align: middle;
+    width: 100%;
+    min-height: 420px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("img/pexels-curtis-adams-5502227\(1\).jpg");
+}
+
+
+.imgt {
+    vertical-align: middle;
+    width: 100%;
+    min-height: 420px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("img/pexels-clay-elliot-5524205.jpg");
+
+
+}
+
+.pre,
+.nex {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1180px;
+    width: 2.6%;
+    padding: 1px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    user-select: none;
+    background-color: black;
+    text-align: center;
+}
+
+.nex {
+    left: 1160px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.footer h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.footer p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: ivory;
+}
+
+.footer a {
+    font-size: 20px;
+    width: 30px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    background-color: yellow;
+    color: black;
+    padding: 18px;
+    text-decoration: none;
+    margin-left: 400px;
+}
+
+.bgg {
+    background-color: papayawhip;
+    min-height: 300px;
+    width: 100%;
+}
+
+.bgg h2 {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: black;
+
+}
+
+.cla {
+    background-color: black;
+    width: 90%;
+    margin: auto;
+}
+
+.flexxx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flexxx1 {
+    width: 45%;
+    margin: 20px;
+}
+
+.flexxx img {
+    width: 100%;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.flexxx2 {
+    width: 55%;
+    color: white;
+    padding-top: 50px;
+
+}
+
+.flexxx2 h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: turquoise;
+}
+
+.flexxx2 p {
+    text-transform: capitalize;
+    color: lightslategrey;
+    font-size: 20px;
+
+
+}
+
+.flexxx2 a {
+    font-size: 20px;
+    width: 30px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    background-color: gold;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.footerr {
+    background-color:aqua;
+    min-height: 230px;
+    width: 60%;
+    color: black;
+    margin: auto;
+}
+
+.footerr h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    box-sizing: 10px;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.foot1 {
+    width: 30%;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.foot2 {
+    width: 30%;
+    margin-left: 320px;
+}
+
+.foot2 h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.our {
+    background-color: gainsboro;
+    min-height: 300px;
+}
+
+.our h1 {
+    color: yellowgreen;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.our p {
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.flexii {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+    gap: 10px;
+}
+
+.grid-item1 {
+    background-color: beige;
+}
+
+.img1ii {
+    min-height: 300px;
+    width: 100%;
+    background-image: url(img/pexels-alex-staudinger-1732414.jpg);
+    background-size: cover;
+
+}
+
+.img2ii {
+    min-height: 300px;
+    width: 100%;
+    background-image: url(img/pexels-binyamin-mellish-1396132\(1\).jpg);
+    background-size: cover;
+}
+
+.img3ii {
+    min-height: 300px;
+    width: 100%;
+    background-image: url(img/pexels-curtis-adams-5502227\(1\).jpg);
+    background-size: cover;
+}
+
+.img4ii {
+    min-height: 300px;
+    width: 100%;
+    background-image: url(img/pexels-pixabay-210538.jpg);
+    background-size: cover;
+}
+
+.img5ii {
+    min-height: 300px;
+    width: 100%;
+    background-image: url(img/pexels-max-rahubovskiy-7031406.jpg);
+    background-size: cover;
+}
+
+.img6ii {
+    min-height: 300px;
+    width: 100%;
+    background-image: url(img/pexels-binyamin-mellish-1396132\(1\).jpg);
+    background-size: cover;
+}
+
+.imgtxt {
+    margin: 10px;
+
+}
+
+.imgtxt p {
+    color: black;
+}
+.imgtxtt {
+    font-size: 20px;
+    width: 25%;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-color: red;
+    color: black;
+    padding: 10px;
+    margin-left: 170px;
+    text-decoration: none;
+} 
+
+.last {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.last1{
+    width: 40%;
+}
+.last1 h1, .last2 h1, .last3 h1, .last4 h1, .last5 h1{
+    text-transform: capitalize;
+    color: ivory;
+}
+.last1 p, .last2 h5, .last3 h5, .last4 h5, .last5 span{
+    text-transform: capitalize;
+    color:pink;
+    font-size: 18px;
+}
+.last2{
+    width: 40%;
+}
+.last3{
+    width: 40%;
+}
+.last4{
+    width: 40%;
+}
+.last5{
+    width: 40%;
+}
+.hr{
+    width: 80%;
+    margin: auto;
+}
+
+.llast {
+    display: flex;
+    padding: 20px;
+    /* margin: 10px; */
+    flex-direction: row;
+    width: 100%;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.final1{
+    width: 70%;
+    margin: 5px;
+    color: cyan;
+    text-transform: capitalize;
+}
+.final2{
+    width: 30%;
+    text-transform: capitalize;
+    color: magenta;
+}
+center{
+    padding-top: 400px;
+}
+.body{
+background-color: black;
+}
